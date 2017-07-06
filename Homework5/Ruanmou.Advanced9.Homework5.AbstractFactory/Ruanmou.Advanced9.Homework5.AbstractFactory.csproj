@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard1.0</TargetFramework>
+    <RootNamespace>Ruanmou.Advanced9.Homework5</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="AbstractFactory\" />
+  </ItemGroup>
+
+</Project>
