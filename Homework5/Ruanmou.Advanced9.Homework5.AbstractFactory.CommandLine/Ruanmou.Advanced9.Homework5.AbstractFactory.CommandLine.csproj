@@ -48,5 +48,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Ruanmou.Advanced9.Homework5.AbstractFactory\Ruanmou.Advanced9.Homework5.AbstractFactory.csproj">
+      <Project>{DCB613A9-7F8A-4F07-B9FC-3DBA7401C5D4}</Project>
+      <Name>Ruanmou.Advanced9.Homework5.AbstractFactory</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
