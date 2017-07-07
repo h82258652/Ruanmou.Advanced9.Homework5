@@ -2,5 +2,9 @@
 {
     public class 猪扒包 : AbstractFood
     {
+        public override void Show()
+        {
+            throw new System.NotImplementedException();
+        }
     }
 }

@@ -2,5 +2,9 @@
 {
     public class 丝袜奶茶 : AbstractFood
     {
+        public override void Show()
+        {
+            throw new System.NotImplementedException();
+        }
     }
 }

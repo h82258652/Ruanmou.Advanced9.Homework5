@@ -5,7 +5,7 @@ namespace Ruanmou.Advanced9.Homework5.SimpleFactory
 {
     public class FoodSimpleFactory
     {
-        public AbstractFood CreateFood(string foodName)
+        public AbstractFood Cook(string foodName)
         {
             switch (foodName)
             {
