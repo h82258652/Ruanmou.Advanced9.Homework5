@@ -44,6 +44,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ruanmou.Advanced9.Homework5
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ruanmou.Advanced9.Homework5.OrderSystem.Winform", "Ruanmou.Advanced9.Homework5.OrderSystem.Winform\Ruanmou.Advanced9.Homework5.OrderSystem.Winform.csproj", "{9B6F4CAB-C8F6-4976-8A5E-79F531936772}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{BDB4D7E0-04E2-407C-A583-E4D16FC50D31}"
+	ProjectSection(SolutionItems) = preProject
+		Readme.txt = Readme.txt
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
