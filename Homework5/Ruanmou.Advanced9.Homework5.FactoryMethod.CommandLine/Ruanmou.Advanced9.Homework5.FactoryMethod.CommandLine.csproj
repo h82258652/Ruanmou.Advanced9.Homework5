@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{491BF00F-DFB4-467D-8947-8D0B97A59BDD}</ProjectGuid>
+    <ProjectGuid>{7BBEF67E-C6D0-4739-B00B-832731A13F16}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Ruanmou.Advanced9.Homework5.AbstractFactory.CommandLine</RootNamespace>
-    <AssemblyName>Ruanmou.Advanced9.Homework5.AbstractFactory.CommandLine</AssemblyName>
+    <RootNamespace>Ruanmou.Advanced9.Homework5.FactoryMethod.CommandLine</RootNamespace>
+    <AssemblyName>Ruanmou.Advanced9.Homework5.FactoryMethod.CommandLine</AssemblyName>
     <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -32,7 +32,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Ruanmou.Advanced9.Homework5.Foods, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" />
     <Reference Include="System" />
     <Reference Include="System.Console, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
       <HintPath>..\packages\System.Console.4.3.0\lib\net46\System.Console.dll</HintPath>
@@ -54,9 +53,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Ruanmou.Advanced9.Homework5.AbstractFactory\Ruanmou.Advanced9.Homework5.AbstractFactory.csproj">
-      <Project>{DCB613A9-7F8A-4F07-B9FC-3DBA7401C5D4}</Project>
-      <Name>Ruanmou.Advanced9.Homework5.AbstractFactory</Name>
+    <ProjectReference Include="..\Ruanmou.Advanced9.Homework5.FactoryMethod\Ruanmou.Advanced9.Homework5.FactoryMethod.csproj">
+      <Project>{fb429a91-e240-4dbe-b92f-7d99368d39e2}</Project>
+      <Name>Ruanmou.Advanced9.Homework5.FactoryMethod</Name>
     </ProjectReference>
     <ProjectReference Include="..\Ruanmou.Advanced9.Homework5.Foods.Abstractions\Ruanmou.Advanced9.Homework5.Foods.Abstractions.csproj">
       <Project>{FB3CC280-10E7-452F-9A30-2E4E283B583E}</Project>

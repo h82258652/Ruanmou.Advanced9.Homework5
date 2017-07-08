@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard1.3</TargetFramework>
+    <RootNamespace>Ruanmou.Advanced9.Homework5</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Ruanmou.Advanced9.Homework5.Foods.Abstractions\Ruanmou.Advanced9.Homework5.Foods.Abstractions.csproj" />
+    <ProjectReference Include="..\Ruanmou.Advanced9.Homework5.Foods\Ruanmou.Advanced9.Homework5.Foods.csproj" />
+  </ItemGroup>
+
+</Project>

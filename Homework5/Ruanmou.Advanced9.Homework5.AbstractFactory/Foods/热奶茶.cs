@@ -2,11 +2,11 @@
 
 namespace Ruanmou.Advanced9.Homework5.Foods
 {
-    public class 干炒牛河 : AbstractFood
+    public class 热奶茶 : 丝袜奶茶
     {
         public override void Show()
         {
-            Console.WriteLine("这碟干炒牛河味道 5 星");
+            Console.WriteLine("这杯奶茶味道 2.5 星");
         }
     }
 }

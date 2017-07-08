@@ -6,12 +6,21 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ruanmou.Advanced9.Homework5.Foods", "Ruanmou.Advanced9.Homework5.Foods\Ruanmou.Advanced9.Homework5.Foods.csproj", "{43FC7AFC-592F-4791-AE88-B8DA79F21CF8}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2简单工厂", "2简单工厂", "{77F910E6-DEB2-4FD6-915B-8D08C7402BAA}"
+	ProjectSection(SolutionItems) = preProject
+		简单工厂文字说明.txt = 简单工厂文字说明.txt
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4抽象工厂", "4抽象工厂", "{7AAC29C6-B100-412E-910B-4401A647B5B7}"
+	ProjectSection(SolutionItems) = preProject
+		抽象工厂文字说明.txt = 抽象工厂文字说明.txt
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5点菜系统", "5点菜系统", "{43D26010-C943-4459-AC12-60EED2074299}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3工厂方法", "3工厂方法", "{735CFA64-25AE-49FF-9A49-A5CBBCCD40B2}"
+	ProjectSection(SolutionItems) = preProject
+		工厂方法文字说明.txt = 工厂方法文字说明.txt
+	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ruanmou.Advanced9.Homework5.AbstractFactory", "Ruanmou.Advanced9.Homework5.AbstractFactory\Ruanmou.Advanced9.Homework5.AbstractFactory.csproj", "{DCB613A9-7F8A-4F07-B9FC-3DBA7401C5D4}"
 EndProject
@@ -26,6 +35,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ruanmou.Advanced9.Homework5.SimpleFactory.CommandLine", "Ruanmou.Advanced9.Homework5.SimpleFactory.CommandLine\Ruanmou.Advanced9.Homework5.SimpleFactory.CommandLine.csproj", "{AC6F6A64-328D-47C5-8F44-F73F1038774B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ruanmou.Advanced9.Homework5.AbstractFactory.CommandLine", "Ruanmou.Advanced9.Homework5.AbstractFactory.CommandLine\Ruanmou.Advanced9.Homework5.AbstractFactory.CommandLine.csproj", "{491BF00F-DFB4-467D-8947-8D0B97A59BDD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ruanmou.Advanced9.Homework5.FactoryMethod", "Ruanmou.Advanced9.Homework5.FactoryMethod\Ruanmou.Advanced9.Homework5.FactoryMethod.csproj", "{FB429A91-E240-4DBE-B92F-7D99368D39E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ruanmou.Advanced9.Homework5.FactoryMethod.CommandLine", "Ruanmou.Advanced9.Homework5.FactoryMethod.CommandLine\Ruanmou.Advanced9.Homework5.FactoryMethod.CommandLine.csproj", "{7BBEF67E-C6D0-4739-B00B-832731A13F16}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -61,6 +74,14 @@ Global
 		{491BF00F-DFB4-467D-8947-8D0B97A59BDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{491BF00F-DFB4-467D-8947-8D0B97A59BDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{491BF00F-DFB4-467D-8947-8D0B97A59BDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB429A91-E240-4DBE-B92F-7D99368D39E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB429A91-E240-4DBE-B92F-7D99368D39E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB429A91-E240-4DBE-B92F-7D99368D39E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB429A91-E240-4DBE-B92F-7D99368D39E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BBEF67E-C6D0-4739-B00B-832731A13F16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BBEF67E-C6D0-4739-B00B-832731A13F16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BBEF67E-C6D0-4739-B00B-832731A13F16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BBEF67E-C6D0-4739-B00B-832731A13F16}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -71,5 +92,7 @@ Global
 		{BA8C9A4E-6D0E-4698-8921-274196C63B7C} = {6A1F2E99-896B-405C-8463-C474477631FB}
 		{AC6F6A64-328D-47C5-8F44-F73F1038774B} = {77F910E6-DEB2-4FD6-915B-8D08C7402BAA}
 		{491BF00F-DFB4-467D-8947-8D0B97A59BDD} = {7AAC29C6-B100-412E-910B-4401A647B5B7}
+		{FB429A91-E240-4DBE-B92F-7D99368D39E2} = {735CFA64-25AE-49FF-9A49-A5CBBCCD40B2}
+		{7BBEF67E-C6D0-4739-B00B-832731A13F16} = {735CFA64-25AE-49FF-9A49-A5CBBCCD40B2}
 	EndGlobalSection
 EndGlobal

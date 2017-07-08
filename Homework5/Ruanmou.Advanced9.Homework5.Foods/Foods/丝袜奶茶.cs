@@ -6,7 +6,7 @@ namespace Ruanmou.Advanced9.Homework5.Foods
     {
         public override void Show()
         {
-            Console.WriteLine("味道 2 星");
+            Console.WriteLine("这杯奶茶味道 2 星");
         }
     }
 }

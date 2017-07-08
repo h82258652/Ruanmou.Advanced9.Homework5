@@ -1,5 +1,4 @@
 ﻿using Ruanmou.Advanced9.Homework5.Foods;
-using System;
 
 namespace Ruanmou.Advanced9.Homework5.AbstractFactory
 {
@@ -7,27 +6,27 @@ namespace Ruanmou.Advanced9.Homework5.AbstractFactory
     {
         public override 菠萝油 Cook菠萝油()
         {
-            throw new NotImplementedException();
+            return new 菠萝油();
         }
 
         public override 干炒牛河 Cook干炒牛河()
         {
-            throw new NotImplementedException();
+            return new 干炒牛河();
         }
 
         public override 罗宋汤 Cook罗宋汤()
         {
-            throw new System.NotImplementedException();
+            return new 罗宋汤();
         }
 
         public override 丝袜奶茶 Cook丝袜奶茶()
         {
-            throw new System.NotImplementedException();
+            return new 丝袜奶茶();
         }
 
         public override 猪扒包 Cook猪扒包()
         {
-            throw new System.NotImplementedException();
+            return new 猪扒包();
         }
     }
 }
